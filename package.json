@@ -1,11 +1,11 @@
 {
-  "name": "v4",
-  "description": "Personal Website V4",
+  "name": "personal-website",
+  "description": "Personal Website",
   "version": "1.0.0",
-  "author": "Brittany Chiang <brittany.chiang@gmail.com>",
+  "author": "Danielle Andrews <danielle.andrews.dev@icloud.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bchiang7/v4"
+    "url": "https://github.com/DrAcula27/personalWebsite"
   },
   "keywords": [
     "gatsby"
