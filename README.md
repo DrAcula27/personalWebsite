@@ -1,39 +1,62 @@
+<!-- https://github.com/othneildrew/Best-README-Template/ -->
+
+<a name="readme-top"></a>
+
+<!-- PROJECT LOGO -->
 <div align="center">
-  <img alt="Logo" src="https://raw.githubusercontent.com/bchiang7/v4/main/src/images/logo.png" width="100" />
-</div>
-<h1 align="center">
-  brittanychiang.com - v4
-</h1>
-<p align="center">
-  The fourth iteration of <a href="https://brittanychiang.com" target="_blank">brittanychiang.com</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
-</p>
-<p align="center">
-  Previous iterations:
-  <a href="https://github.com/bchiang7/v1" target="_blank">v1</a>,
-  <a href="https://github.com/bchiang7/v2" target="_blank">v2</a>,
-  <a href="https://github.com/bchiang7/bchiang7.github.io" target="_blank">v3</a>
-</p>
-<p align="center">
-  <a href="https://app.netlify.com/sites/brittanychiang/deploys" target="_blank">
-    <img src="https://api.netlify.com/api/v1/badges/1963b488-7b78-48c9-9e2d-6fb5e47ab3af/deploy-status" alt="Netlify Status" />
+  <a href="#">
+    <img alt="Logo" src="./src/images/logo_self.svg" width="100" />
   </a>
-</p>
 
-![demo](https://raw.githubusercontent.com/bchiang7/v4/main/src/images/demo.png)
+  <h1>Danielle Andrews - personal website</h1>
 
-## 🚨 Forking this repo (please read!)
+  <p>
+    <a href="https://app.netlify.com/sites/brittanychiang/deploys" target="_blank">
+      <img src="https://api.netlify.com/api/v1/badges/1963b488-7b78-48c9-9e2d-6fb5e47ab3af/deploy-status" alt="Netlify Status" />
+    </a>
+  </p>
+</div>
 
-Many people have contacted me asking me if they can use this code for their own website, and the answer to that question is usually **yes, with attribution**.
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#optimizations">Optimizations</a></li>
+    <li><a href="#lessons-learned">Lessons Learned</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-I value keeping my site open source, but as you all know, _**plagiarism is bad**_. It's always disheartening whenever I find that someone has copied my site without giving me credit. I spent a non-trivial amount of effort building and designing this iteration of my website, and I am proud of it! All I ask of you all is to not claim this effort as your own.
+<!-- ABOUT THE PROJECT -->
 
-Please also note that I did not build this site with the intention of it being a starter theme, so if you have questions about implementation, please refer to the [Gatsby docs](https://www.gatsbyjs.org/docs/).
+## About The Project
 
-### TL;DR
+![demo](https://raw.githubusercontent.com/DrAcula27/personalWebsite/main/src/images/demo.png)
 
-Yes, you can fork this repo. Please give me proper credit by linking back to [brittanychiang.com](https://brittanychiang.com). Thanks!
+Personal website for showcasing web development and software engineering skills in an accessible and aesthetically pleasing way.
 
-## 🛠 Installation & Set Up
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Built With
+
+- [![Gatsby](https://img.shields.io/badge/gatsby-663399.svg?style=flat&logo=gatsby&logoColor=white)](https://www.gatsbyjs.org/)
+- [![Netlify](https://img.shields.io/badge/netlify-00C7B7.svg?style=flat&logo=netlify&logoColor=white)](https://www.netlify.com/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- USAGE -->
+
+## Usage
+
+### 🛠 Installation & Set Up
 
 1. Install the Gatsby CLI
 
@@ -50,7 +73,7 @@ Yes, you can fork this repo. Please give me proper credit by linking back to [br
 3. Install dependencies
 
    ```sh
-   yarn
+   npm i
    ```
 
 4. Start the development server
@@ -59,7 +82,7 @@ Yes, you can fork this repo. Please give me proper credit by linking back to [br
    npm start
    ```
 
-## 🚀 Building and Running for Production
+### 🚀 Building and Running for Production
 
 1. Generate a full static production build
 
@@ -73,7 +96,7 @@ Yes, you can fork this repo. Please give me proper credit by linking back to [br
    npm run serve
    ```
 
-## 🎨 Color Reference
+### 🎨 Color Reference
 
 | Color          | Hex                                                                |
 | -------------- | ------------------------------------------------------------------ |
@@ -85,3 +108,41 @@ Yes, you can fork this repo. Please give me proper credit by linking back to [br
 | Lightest Slate | ![#ccd6f6](https://via.placeholder.com/10/ccd6f6?text=+) `#ccd6f6` |
 | White          | ![#e6f1ff](https://via.placeholder.com/10/e6f1ff?text=+) `#e6f1ff` |
 | Green          | ![#64ffda](https://via.placeholder.com/10/64ffda?text=+) `#64ffda` |
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- OPTIMIZATIONS -->
+
+## Optimizations
+
+This project can be improved by:
+
+- [ ]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LESSONS LEARNED -->
+
+## Lessons Learned
+
+-
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTACT -->
+
+## Contact
+
+Danielle Andrews - [@DrAcula_codes](https://twitter.com/DrAcula_codes 'Twitter/X') - [daniellerandrews](https://www.linkedin.com/in/daniellerandrews 'LinkedIn') - danielle.andrews.dev@icloud.com
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGMENTS -->
+
+## Acknowledgments
+
+A special thanks to these resources used in the project!
+
+- This project was forked from [brittanychiang.com](https://brittanychiang.com)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
