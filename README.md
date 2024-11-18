@@ -73,7 +73,7 @@ Personal website for showcasing web development and software engineering skills 
 3. Install dependencies
 
    ```sh
-   npm i
+   yarn
    ```
 
 4. Start the development server
