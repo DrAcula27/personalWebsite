@@ -110,13 +110,14 @@ Personal website for showcasing web development and software engineering skills 
 
 | Color          | Hex                                                                |
 | -------------- | ------------------------------------------------------------------ |
-| Navy           | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) `#0a192f` |
-| Light Navy     | ![#112240](https://via.placeholder.com/10/0a192f?text=+) `#112240` |
-| Lightest Navy  | ![#233554](https://via.placeholder.com/10/303C55?text=+) `#233554` |
-| Slate          | ![#8892b0](https://via.placeholder.com/10/8892b0?text=+) `#8892b0` |
-| Light Slate    | ![#a8b2d1](https://via.placeholder.com/10/a8b2d1?text=+) `#a8b2d1` |
-| Lightest Slate | ![#ccd6f6](https://via.placeholder.com/10/ccd6f6?text=+) `#ccd6f6` |
-| White          | ![#e6f1ff](https://via.placeholder.com/10/e6f1ff?text=+) `#e6f1ff` |
+| Charcoal       | ![#333333](https://via.placeholder.com/10/333333?text=+) `#333333` |
+| Gray           | ![#555555](https://via.placeholder.com/10/555555?text=+) `#555555` |
+| Light Gray     | ![#777777](https://via.placeholder.com/10/777777?text=+) `#777777` |
+| Lightest Gray  | ![#999999](https://via.placeholder.com/10/999999?text=+) `#999999` |
+| Slate          | ![#d1d1d1](https://via.placeholder.com/10/d1d1d1?text=+) `#d1d1d1` |
+| Light Slate    | ![#e6e6e6](https://via.placeholder.com/10/e6e6e6?text=+) `#e6e6e6` |
+| Lightest Slate | ![#f9f9f9](https://via.placeholder.com/10/f9f9f9?text=+) `#f9f9f9` |
+| White          | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) `#ffffff` |
 | Green          | ![#64ffda](https://via.placeholder.com/10/64ffda?text=+) `#64ffda` |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

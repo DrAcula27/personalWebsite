@@ -17,7 +17,7 @@ const StyledHeader = styled.header`
   padding: 0px 50px;
   width: 100%;
   height: var(--nav-height);
-  background-color: rgba(10, 25, 47, 0.85);
+  background-color: rgba(50, 50, 50, 0.85);
   filter: none !important;
   pointer-events: auto !important;
   user-select: auto !important;
@@ -38,8 +38,8 @@ const StyledHeader = styled.header`
       css`
         height: var(--nav-scroll-height);
         transform: translateY(0px);
-        background-color: rgba(10, 25, 47, 0.85);
-        box-shadow: 0 10px 30px -10px var(--navy-shadow);
+        background-color: rgba(50, 50, 50, 0.85);
+        box-shadow: 0 10px 30px -10px var(--gray-shadow);
       `};
 
     ${props =>
@@ -48,7 +48,7 @@ const StyledHeader = styled.header`
       css`
         height: var(--nav-scroll-height);
         transform: translateY(calc(var(--nav-scroll-height) * -1));
-        box-shadow: 0 10px 30px -10px var(--navy-shadow);
+        box-shadow: 0 10px 30px -10px var(--gray-shadow);
       `};
   }
 `;
@@ -92,7 +92,7 @@ const StyledNav = styled.nav`
             transition: var(--transition);
           }
           polygon {
-            fill: var(--navy);
+            fill: var(--gray);
           }
         }
       }

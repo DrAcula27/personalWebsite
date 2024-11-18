@@ -37,7 +37,7 @@ const StyledPostContent = styled.div`
   }
 
   code {
-    background-color: var(--lightest-navy);
+    background-color: var(--lightest-gray);
     color: var(--lightest-slate);
     border-radius: var(--border-radius);
     font-size: var(--fz-sm);
@@ -99,7 +99,7 @@ PostTemplate.propTypes = {
 };
 
 export const pageQuery = graphql`
-  query($path: String!) {
+  query ($path: String!) {
     markdownRemark(frontmatter: { slug: { eq: $path } }) {
       html
       frontmatter {
