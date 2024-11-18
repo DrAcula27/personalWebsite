@@ -5,12 +5,13 @@
 <!-- PROJECT LOGO -->
 <div align="center">
   <a href="#">
-    <img alt="Logo" src="./src/images/logo_self.svg" width="100" />
+    <img alt="Logo" src="https://raw.githubusercontent.com/DrAcula27/personalWebsite/main/src/images/logo_self.svg" width="100" />
   </a>
 
   <h1>Danielle Andrews - personal website</h1>
 
   <p>
+  <!-- TODO: update with my netlify status once hosted -->
     <a href="https://app.netlify.com/sites/brittanychiang/deploys" target="_blank">
       <img src="https://api.netlify.com/api/v1/badges/1963b488-7b78-48c9-9e2d-6fb5e47ab3af/deploy-status" alt="Netlify Status" />
     </a>
@@ -47,8 +48,17 @@ Personal website for showcasing web development and software engineering skills 
 
 ### Built With
 
-- [![Gatsby](https://img.shields.io/badge/gatsby-663399.svg?style=flat&logo=gatsby&logoColor=white)](https://www.gatsbyjs.org/)
-- [![Netlify](https://img.shields.io/badge/netlify-00C7B7.svg?style=flat&logo=netlify&logoColor=white)](https://www.netlify.com/)
+- [![Babel](https://img.shields.io/badge/Babel-333333.svg?style=flat&logo=babel&logoColor=F9DC3E)](https://babeljs.io/)
+- [![Gatsby](https://img.shields.io/badge/Gatsby-663399.svg?style=flat&logo=gatsby&logoColor=white)](https://www.gatsbyjs.org/)
+- [![Lodash](https://img.shields.io/badge/Lodash-3492FF.svg?style=flat&logo=lodash&logoColor=white)](https://lodash.com/)
+- [![Prism](https://img.shields.io/badge/Prism-000000.svg?style=flat&logo=prisma&logoColor=white)](https://prismjs.com/)
+- [![React](https://img.shields.io/badge/React-333333.svg?style=flat&logo=react&logoColor=61DAFB)](https://react.dev/)
+- [![ScrollReveal](https://img.shields.io/badge/ScrollReveal-333333.svg?style=flat&logo=scrollreveal&logoColor=FFCB36)](https://scrollrevealjs.org/)
+- [![StyledComponents](https://img.shields.io/badge/styled_components-DB7093.svg?style=flat&logo=styledcomponents&logoColor=white)](https://styled-components.com/)
+
+#### Hosted On
+
+- [![Netlify](https://img.shields.io/badge/netlify-333333.svg?style=flat&logo=netlify&logoColor=00C7B7)](https://www.netlify.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -117,7 +127,7 @@ Personal website for showcasing web development and software engineering skills 
 
 This project can be improved by:
 
-- [ ]
+- [ ] fixing the alignment of the sections
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
