@@ -66,7 +66,7 @@ const StyledNav = styled.nav`
     ${({ theme }) => theme.mixins.flexCenter};
 
     a {
-      color: var(--green);
+      color: var(--pink);
       width: 42px;
       height: 42px;
       position: relative;
@@ -92,7 +92,7 @@ const StyledNav = styled.nav`
             transition: var(--transition);
           }
           polygon {
-            fill: var(--gray);
+            fill: var(--charcoal);
           }
         }
       }
@@ -135,7 +135,7 @@ const StyledLinks = styled.div`
         &:before {
           content: '0' counter(item) '.';
           margin-right: 5px;
-          color: var(--green);
+          color: var(--blue);
           font-size: var(--fz-xxs);
           text-align: right;
         }

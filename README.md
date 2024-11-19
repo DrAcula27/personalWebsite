@@ -118,7 +118,8 @@ Personal website for showcasing web development and software engineering skills 
 | Light Slate    | ![#e6e6e6](https://via.placeholder.com/10/e6e6e6?text=+) `#e6e6e6` |
 | Lightest Slate | ![#f9f9f9](https://via.placeholder.com/10/f9f9f9?text=+) `#f9f9f9` |
 | White          | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) `#ffffff` |
-| Green          | ![#64ffda](https://via.placeholder.com/10/64ffda?text=+) `#64ffda` |
+| Blue           | ![#57cbff](https://via.placeholder.com/10/57cbff?text=+) `#57cbff` |
+| Pink           | ![#ff7cc8](https://via.placeholder.com/10/ff7cc8?text=+) `#ff7cc8` |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

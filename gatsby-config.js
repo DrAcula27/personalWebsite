@@ -6,7 +6,7 @@ module.exports = {
     description:
       'Danielle Andrews is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
     siteUrl: 'https://danielle-andrews.devdecks.com', // No trailing slash allowed!
-    image: '/og@2x.png', // Path to your image you placed in the 'static' folder
+    image: '/metaImg.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@DrAcula_codes',
   },
   plugins: [
