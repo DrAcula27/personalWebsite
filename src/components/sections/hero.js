@@ -7,6 +7,7 @@ import { Link } from 'gatsby';
 
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
+  max-width: 1000px;
   flex-direction: column;
   align-items: flex-start;
   min-height: 100vh;
@@ -75,7 +76,7 @@ const Hero = () => {
   );
   const five = (
     <a className="email-link" href="mailto:danielle.andrews.dev@icloud.com">
-      Get in touch
+      Send An Email
     </a>
   );
 

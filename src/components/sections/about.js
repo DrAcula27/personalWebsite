@@ -6,7 +6,7 @@ import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
 
 const StyledAboutSection = styled.section`
-  max-width: 900px;
+  max-width: 1000px;
 
   .inner {
     display: grid;
@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = ['JavaScript (ES6+)', 'React', 'Node.js', 'Express.js', 'MongoDB', 'GraphQL'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -136,29 +136,23 @@ const About = () => {
           <div>
             <p>
               Hello! My name is Danielle and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2020 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
-            </p>
-
-            <p>
-              Fast-forward to today, and I've had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
-            </p>
-
-            <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
+              interest in web development started back in 2020 when I decided to try creating my own{' '}
+              <a href="https://dracula27.github.io/Dashboard-Chrome-Extension/">
+                browser extension
               </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              (it looks best on Google Chrome) — turns out hacking together a custom home tab taught
+              me a lot about HTML, CSS, &amp; JavaScript!
+            </p>
+
+            <p>
+              Fast-forward to today, and my main focus is building accessible, inclusive products
+              and digital experiences as a <a href="#jobs">consultant</a> for a variety of clients.
+            </p>
+
+            <p>
+              I also currently contribute to{' '}
+              <a href="https://www.hackforla.org">open source projects</a> and volunteer at local
+              businesses in my free time.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
