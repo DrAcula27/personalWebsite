@@ -129,7 +129,9 @@ Personal website for showcasing web development and software engineering skills 
 
 This project can be improved by:
 
-- [ ] fixing the alignment of the sections
+- [x] ~~fixing the alignment of the sections~~
+- [ ] keep navbar sticky to the top even when scrolling
+- [ ] keep up to date with current projects
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
