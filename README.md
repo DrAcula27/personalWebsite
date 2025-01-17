@@ -139,7 +139,7 @@ This project can be improved by:
 
 ## Lessons Learned
 
--
+- **How to use Gatsby** This project was my first use of the Gatsby framework.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
