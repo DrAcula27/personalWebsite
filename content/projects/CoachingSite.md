@@ -7,7 +7,7 @@ tech:
   - HTML
   - CSS
   - JavaScript
-company: 'Freelance'
+company: "Danielle's Consulting"
 showInProjects: false
 ---
 

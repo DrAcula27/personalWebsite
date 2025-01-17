@@ -5,7 +5,7 @@ github: 'https://github.com/DrAcula27/emailSignature'
 external: 'https://dracula27.github.io/emailSignature/'
 tech:
   - HTML
-company: 'Danielle's Consulting'
+company: "Danielle's Consulting"
 showInProjects: false
 ---
 
