@@ -2,7 +2,7 @@
 date: '2023-02-03'
 title: 'React-Tac-Toe'
 github: 'https://github.com/DrAcula27/react_one'
-external: ''
+external: 'https://dracula27.github.io/react_one/'
 tech:
   - React
   - CSS
