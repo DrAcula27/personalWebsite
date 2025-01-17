@@ -61,7 +61,7 @@ const Contact = () => {
 
       <p>
         My inbox is always open. Whether you have a question, want to collaborate, or just want to
-        connect, I’d love to hear from you!
+        connect, I'd love to hear from you!
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>
