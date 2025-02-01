@@ -45,6 +45,15 @@ const StyledText = styled.div`
       }
     }
   }
+
+  details {
+    margin-top: 2em;
+
+    summary {
+      text-decoration: underline dotted var(--blue) from-font;
+      font-weight: bold;
+    }
+  }
 `;
 const StyledPic = styled.div`
   position: relative;
@@ -125,7 +134,16 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'React', 'Node.js', 'Express.js', 'MongoDB', 'GraphQL'];
+  const skills = [
+    'JavaScript',
+    'React',
+    'Node.js',
+    'Express.js',
+    'MongoDB',
+    'GraphQL',
+    'DuckDB',
+    'SQL',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,24 +153,44 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Danielle and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2020 when I decided to try creating my own{' '}
-              <a href="https://dracula27.github.io/Dashboard-Chrome-Extension/">
-                browser extension
-              </a>{' '}
-              (it looks best on Google Chrome) — turns out hacking together a custom home tab taught
-              me a lot about HTML, CSS, &amp; JavaScript!
+              Hello! My name is Danielle and I enjoy creating things that live on the internet. I am
+              a software engineer with 5+ years of experience in end-to-end full-stack development
+              across a variety of industries, including startups and open-source projects. My career
+              began in mechanical engineering and aviation maintenance, where I gained 7 years of
+              combined experience in both military and engineering leadership. I thrive in
+              collaborative, mission-driven environments where I can build secure, scalable
+              solutions, and I'm excited about opportunities to create impactful, user-centered
+              software. More than just being a leader, however, I am also a doer -
+            </p>
+            <p>On the frontend, I can:</p>
+            <ul className="skills-list">
+              <li>manage state with React Context</li>
+              <li>build reusable UI components with React (and vanilla HTML)</li>
+              <li>create responsive layouts that work across different screen sizes</li>
+              <li>optimize rendering with memoization (React.memo, useMemo, useCallback)</li>
+              <li>implement WCAG-compliance for screen readers and keyboard navigation</li>
+              <li>
+                Style applications using vanilla CSS or CSS frameworks like Bootstrap, Material UI,
+                or Tailwind CSS
+              </li>
+            </ul>
+            <p>On the backend, I can:</p>
+            <ul className="skills-list">
+              <li>build out RESTful and GraphQL APIs</li>
+              <li>manage SQL (PostgreSQL) and NoSQL (MongoDB) databases</li>
+              <li>implement secure auth with JWT, OAuth, and session-based auth</li>
+              <li>use CDNs and database caching to improve performance</li>
+              <li>set up GitHub Actions</li>
+            </ul>
+
+            <p>
+              Currently, my main focus is building accessible, inclusive products and digital
+              experiences as a <a href="#jobs">consultant</a> for a variety of clients.
             </p>
 
             <p>
-              Fast-forward to today, and my main focus is building accessible, inclusive products
-              and digital experiences as a <a href="#jobs">consultant</a> for a variety of clients.
-            </p>
-
-            <p>
-              I also currently contribute to{' '}
-              <a href="https://www.hackforla.org">open source projects</a> and volunteer at local
-              businesses in my free time.
+              I actively contribute to <a href="https://www.hackforla.org">open source projects</a>{' '}
+              and volunteer at local businesses in my free time.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
@@ -176,6 +214,28 @@ const About = () => {
           </div>
         </StyledPic>
       </div>
+      <StyledText>
+        <details>
+          <summary>Click here to learn more about me.</summary>
+          <p>
+            I am a software engineer with a background in mechanical engineering, aviation
+            maintenance, and salmon conservation. Currently, I consult as a web developer,
+            contribute to multiple open-source/volunteer projects, and volunteer with my local
+            salmon conservation group. After high school, I went to college to study aerospace and
+            mechanical engineering. While in college, I joined the United States Marine Corps as a
+            helicopter mechanic and worked part-time as a mechanical engineer to pay my way through
+            school. I graduated from college with a bachelor of science in mechanical engineering,
+            minors in aerospace engineering and German, and Magna Cum Laude honors. While working as
+            a mechanical engineer, I found myself spending more time automating tasks to make my job
+            more efficient (both for myself and my coworkers); I also found that I enjoyed that part
+            of the job more than the engineering itself. Then COVID hit, and I lost my job.
+            Motivated by my passion of automating tasks, I turned to software engineering. Since
+            then, I started consulting web development work. As a consulting software engineer, I
+            have completed projects for several clients, ranging from local government to Edtech
+            startups. I continually upskill my technical and soft skills through the 100devs agency.
+          </p>
+        </details>
+      </StyledText>
     </StyledAboutSection>
   );
 };

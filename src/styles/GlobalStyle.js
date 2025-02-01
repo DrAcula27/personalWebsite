@@ -275,6 +275,12 @@ const GlobalStyle = createGlobalStyle`
     border-radius: 0;
   }
 
+  details summary:hover {
+    cursor: pointer;
+    color: var(--blue);
+    transition: var(--transition);
+  }
+
   input, textarea {
     border-radius: 0;
     outline: 0;
