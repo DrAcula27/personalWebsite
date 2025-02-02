@@ -136,13 +136,14 @@ const About = () => {
 
   const skills = [
     'JavaScript',
-    'React',
     'Node.js',
     'Express.js',
     'MongoDB',
+    'React',
     'GraphQL',
     'DuckDB',
     'SQL',
+    'R/R-Shiny',
   ];
 
   return (
@@ -153,16 +154,20 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Danielle and I enjoy creating things that live on the internet. I am
-              a software engineer with 5+ years of experience in end-to-end full-stack development
-              across a variety of industries, including startups and open-source projects. My career
-              began in mechanical engineering and aviation maintenance, where I gained 7 years of
-              combined experience in both military and engineering leadership. I thrive in
-              collaborative, mission-driven environments where I can build secure, scalable
-              solutions, and I'm excited about opportunities to create impactful, user-centered
-              software. More than just being a leader, however, I am also a doer -
+              Hello! My name is <b>Danielle</b> and I enjoy creating things that live on the
+              internet. I am a <b>software engineer</b> with <b>5+ years of experience</b> in
+              end-to-end full-stack development across a variety of industries, including{' '}
+              <b>startups</b> and <b>open-source</b> projects. My career began in mechanical
+              engineering and aviation maintenance, where I gained{' '}
+              <b>7 years of combined experience in both military and engineering leadership</b>. I
+              thrive in collaborative, mission-driven environments where I can build secure,
+              scalable solutions, and I'm excited about opportunities to create impactful,
+              user-centered software. More than just being a <b>leader</b>, however, I am also a{' '}
+              <b>doer</b> -
             </p>
-            <p>On the frontend, I can:</p>
+            <p>
+              <b>On the frontend, I can</b>:
+            </p>
             <ul className="skills-list">
               <li>manage state with React Context</li>
               <li>build reusable UI components with React (and vanilla HTML)</li>
@@ -174,7 +179,9 @@ const About = () => {
                 or Tailwind CSS
               </li>
             </ul>
-            <p>On the backend, I can:</p>
+            <p>
+              <b>On the backend, I can</b>:
+            </p>
             <ul className="skills-list">
               <li>build out RESTful and GraphQL APIs</li>
               <li>manage SQL (PostgreSQL) and NoSQL (MongoDB) databases</li>
@@ -214,6 +221,7 @@ const About = () => {
           </div>
         </StyledPic>
       </div>
+
       <StyledText>
         <details>
           <summary>Click here to learn more about me.</summary>
