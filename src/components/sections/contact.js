@@ -57,8 +57,6 @@ const Contact = () => {
     <StyledContactSection id="contact" ref={revealContainer}>
       <h2 className="numbered-heading">Get In Touch</h2>
 
-      {/* <h2 className="title">Get In Touch</h2> */}
-
       <p>
         My inbox is always open. Whether you have a question, want to collaborate, or just want to
         connect, I'd love to hear from you!

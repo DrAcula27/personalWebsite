@@ -67,9 +67,9 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I'm a software engineer specializing in building (and occasionally designing) exceptional
-        digital experiences. Currently, I'm focused on building accessible, human-centered products
-        as a {/* scroll to experience section */}
+        I'm a <b>software engineer</b> specializing in building (and occasionally designing)
+        exceptional digital experiences. Currently, I'm focused on building accessible,
+        human-centered products as a {/* scroll to experience section */}
         <Link to="#jobs">consultant</Link>.
       </p>
     </>

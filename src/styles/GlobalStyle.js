@@ -174,6 +174,15 @@ const GlobalStyle = createGlobalStyle`
     font-size: clamp(40px, 8vw, 80px);
   }
 
+  h2.big-heading {
+    text-decoration: underline var(--pink);
+  }
+
+  h2.big-heading:hover {
+    color: var(--pink);
+    transition: var(--transition);
+  }
+
   .medium-heading {
     margin: 0;
     font-size: clamp(40px, 8vw, 60px);
@@ -314,6 +323,10 @@ const GlobalStyle = createGlobalStyle`
       font-size: var(--fz-sm);
       border-radius: var(--border-radius);
       padding: 0.3em 0.5em;
+    }
+
+    b {
+      color: var(--pink);
     }
   }
 
