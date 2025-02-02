@@ -9,7 +9,7 @@ tech:
   - JavaScript
   - Node + Express
 company: "Danielle's Consulting"
-showInProjects: true
+showInProjects: false
 ---
 
 Tic-Tac-Toe using React. To play the game, a user clicks on squares to play tic-tac-toe. As the user plays, a history of moves is recorded, and the user can then "time travel" between moves.

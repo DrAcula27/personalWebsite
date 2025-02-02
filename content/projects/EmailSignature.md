@@ -6,7 +6,7 @@ external: 'https://dracula27.github.io/emailSignature/'
 tech:
   - HTML
 company: "Danielle's Consulting"
-showInProjects: false
+showInProjects: true
 ---
 
 An HTML email signature for email clients. Built solely using HTML tables, it should work in most email clients.
