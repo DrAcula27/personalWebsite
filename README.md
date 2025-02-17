@@ -10,12 +10,8 @@
 
   <h1>Danielle Andrews - personal website</h1>
 
-  <p>
-  <!-- TODO: update with my netlify status once hosted -->
-    <a href="https://app.netlify.com/sites/brittanychiang/deploys" target="_blank">
-      <img src="https://api.netlify.com/api/v1/badges/1963b488-7b78-48c9-9e2d-6fb5e47ab3af/deploy-status" alt="Netlify Status" />
-    </a>
-  </p>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/21ad5bc8-a14e-4495-a4d2-a6129b845122/deploy-status)](https://app.netlify.com/sites/danielle-andrews/deploys)
+
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -129,9 +125,9 @@ Personal website for showcasing web development and software engineering skills 
 
 This project can be improved by:
 
-- [x] ~~fixing the alignment of the sections~~
-- [ ] keep navbar sticky to the top even when scrolling
 - [x] ~~keep up to date with current projects~~
+- [x] ~~fix the alignment of the sections~~
+- [ ] keep navbar sticky to the top, even when scrolling
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

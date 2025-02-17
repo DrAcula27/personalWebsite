@@ -7,6 +7,7 @@ range: 'April 2024 - Present'
 url: 'https://www.hackforla.org/'
 ---
 
+- Redesigned the back-end service using DuckDB to efficiently read data from HuggingFace, improving the performance of 311-data’s map by 560%.
 - Guided agile teams through the transition to the new GitHub Projects by refactoring GHA workflows using YAML and GraphQL, resulting in creating, assigning, and closing tickets 200% faster.
 - Improved accessibility for the 311-data project by implementing zoom controls for the map that comply with WCAG standards.
 - Mentored new contributors, resulting in a 5% retention increase and reduced onboarding errors by 10%.
