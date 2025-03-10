@@ -7,6 +7,5 @@ range: 'January - April 2024'
 url: 'https://tahuyarivervalleywaterdistrict.org'
 ---
 
-- Designed and developed the website from scratch, making critical public information accessible online for the first time.
-- Performed quality assurance tests to ensure cross-browser compatibility and mobile responsiveness.
-- Developed, maintained, and shipped production code for the website primarily using HTML, CSS, and JavaScript.
+- Increased public access to critical water district information by designing and developing the website, making resources available online for the first time.
+- Improved cross-browser functionality and mobile responsiveness by performing comprehensive quality assurance testing, reducing user accessibility issues.

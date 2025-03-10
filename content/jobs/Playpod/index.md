@@ -7,5 +7,5 @@ range: 'June - September 2023'
 url: 'https://www.playpod.io/'
 ---
 
-- Architected the language globalization feature, resulting in a 95% increase in the product’s user base.
-- Enhanced app functionality by implementing robust error handling, introducing a cache of profile photos for user selection, and incorporating breadcrumbs for seamless navigation, reducing user drop-off rates by 40%.
+- Expanded the product’s user base by 95% by architecting a language globalization feature via integrating Spanish support with AWS transcription services.
+- Reduced user drop-off rates by 40% by introducing error handling, caching, and breadcrumbs, resulting in a smoother user experience.

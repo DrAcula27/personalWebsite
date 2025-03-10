@@ -13,4 +13,4 @@ tech:
   - TheMealDB API
 ---
 
-A fully functional web application that allows users to search for, view, and save recipes. The application also supports searching for a recipe by name or filtering recipes by multiple criteria.
+A fully functional web application that allows users to search for, view, and save recipes. The application also supports searching for a recipe by name or filtering recipes by multiple criteria, allowing for more precise recipe discovery.
