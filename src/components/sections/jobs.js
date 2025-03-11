@@ -167,6 +167,15 @@ const StyledTabPanel = styled.div`
     }
   }
 
+  h4 {
+    margin-bottom: 6px;
+    font-size: var(--fz-md);
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1;
+    color: var(--dark-slate);
+  }
+
   .range {
     margin-bottom: 25px;
     color: var(--light-slate);
@@ -187,6 +196,7 @@ const Jobs = () => {
             frontmatter {
               title
               company
+              longName
               location
               range
               url
@@ -284,7 +294,7 @@ const Jobs = () => {
           {jobsData &&
             jobsData.map(({ node }, i) => {
               const { frontmatter, html } = node;
-              const { title, url, company, range } = frontmatter;
+              const { title, url, company, longName, range } = frontmatter;
 
               return (
                 <CSSTransition key={i} in={activeTabId === i} timeout={250} classNames="fade">
@@ -304,6 +314,8 @@ const Jobs = () => {
                         </a>
                       </span>
                     </h3>
+
+                    <h4 className="longName">{longName}</h4>
 
                     <p className="range">{range}</p>
 

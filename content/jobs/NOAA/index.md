@@ -1,7 +1,8 @@
 ---
 date: '2025-01-20'
 title: 'Software Engineer'
-company: 'NOAA NWFSC'
+company: 'NOAA Fisheries'
+longName: 'National Oceanic and Atmospheric Administration - Northwest Fisheries Science Center'
 location: 'Remote'
 range: 'January 2025 - Present'
 url: 'https://www.fisheries.noaa.gov/about/northwest-fisheries-science-center'

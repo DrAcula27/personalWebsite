@@ -2,6 +2,7 @@
 date: '2024-04-01'
 title: 'Software Engineer'
 company: 'Hack for LA'
+longName: ''
 location: 'Remote'
 range: 'April 2024 - Present'
 url: 'https://www.hackforla.org/'

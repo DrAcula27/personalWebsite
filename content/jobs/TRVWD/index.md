@@ -2,6 +2,7 @@
 date: '2024-01-01'
 title: 'Web Developer'
 company: 'TRV Water District'
+longName: 'Tahuya River Valley Water District'
 location: 'Tahuya, WA'
 range: 'January - April 2024'
 url: 'https://tahuyarivervalleywaterdistrict.org'

@@ -2,6 +2,7 @@
 date: '2023-10-01'
 title: 'Software Engineer Consultant'
 company: 'The Bridge Workforce'
+longName: 'The Bridge Workforce Training and Development, LLC'
 location: 'Remote'
 range: 'October - December 2023'
 url: 'https://www.thebridgeworkforce.org/'

@@ -2,6 +2,7 @@
 date: '2023-06-01'
 title: 'Software Engineer Consultant'
 company: 'Playpod'
+longName: ''
 location: 'Remote'
 range: 'June - September 2023'
 url: 'https://www.playpod.io/'
