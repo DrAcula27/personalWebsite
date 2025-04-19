@@ -19,10 +19,8 @@ const StyledAboutSection = styled.section`
   }
 `;
 const StyledText = styled.div`
-  ul.skills-list {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(140px, 200px));
-    grid-gap: 0 10px;
+  ul.skills-list,
+  ul.list {
     padding: 0;
     margin: 20px 0 0 0;
     overflow: hidden;
@@ -46,13 +44,19 @@ const StyledText = styled.div`
     }
   }
 
-  details {
-    margin-top: 2em;
+  ul.skills-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
+    grid-gap: 0 10px;
+  }
 
-    summary {
-      text-decoration: underline dotted var(--blue) from-font;
-      font-weight: bold;
-    }
+  h3 {
+    margin-top: 50px;
+    font-size: var(--fz-xl);
+  }
+
+  .connect {
+    margin-top: 50px;
   }
 `;
 const StyledPic = styled.div`
@@ -60,7 +64,7 @@ const StyledPic = styled.div`
   max-width: 300px;
 
   @media (max-width: 768px) {
-    margin: 50px auto 0;
+    margin: 50px auto;
     width: 70%;
   }
 
@@ -136,14 +140,16 @@ const About = () => {
 
   const skills = [
     'JavaScript',
+    'TypeScript',
+    'React',
     'Node.js',
     'Express.js',
     'MongoDB',
-    'React',
     'GraphQL',
     'DuckDB',
     'SQL',
-    'R/R-Shiny',
+    'R/Shiny',
+    'AWS',
   ];
 
   return (
@@ -154,58 +160,23 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is <b>Danielle</b> and I enjoy creating things that live on the
-              internet. I am a <b>software engineer</b> with <b>5+ years of experience</b> in
-              end-to-end full-stack development across a variety of industries, including{' '}
-              <b>startups</b> and <b>open-source</b> projects. My career began in mechanical
-              engineering and aviation maintenance, where I gained{' '}
-              <b>7 years of combined experience in both military and engineering leadership</b>. I
-              thrive in collaborative, mission-driven environments where I can build secure,
-              scalable solutions, and I'm excited about opportunities to create impactful,
-              user-centered software. More than just being a <b>leader</b>, however, I am also a{' '}
-              <b>doer</b> -
+              Hello! I'm <b>Danielle Andrews</b> — a <b>full-stack software engineer</b>, U.S.
+              Marine Corps <b>veteran</b>, and former mechanical engineer who loves building tech
+              that solves real-world problems.
             </p>
             <p>
-              <b>On the frontend, I can</b>:
+              With <b>over 5 years of experience</b> in full-stack development, I've worked across
+              startups, civic tech, and open-source projects to deliver accessible, performant web
+              applications. My journey into software began while streamlining engineering workflows
+              with automation scripts. That love for optimization and impact eventually led me to
+              leave mechanical engineering and pursue software full-time.
             </p>
-            <ul className="skills-list">
-              <li>manage state with React Context</li>
-              <li>build reusable UI components with React (and vanilla HTML)</li>
-              <li>create responsive layouts that work across different screen sizes</li>
-              <li>optimize rendering with memoization (React.memo, useMemo, useCallback)</li>
-              <li>implement WCAG-compliance for screen readers and keyboard navigation</li>
-              <li>
-                Style applications using vanilla CSS or CSS frameworks like Bootstrap, Material UI,
-                or Tailwind CSS
-              </li>
-            </ul>
             <p>
-              <b>On the backend, I can</b>:
+              Today, I <a href="#jobs">consult</a> as a web developer for government and nonprofit
+              clients, contribute to open-source and volunteer-led projects, and build tools for
+              salmon conservation and environmental research.
             </p>
-            <ul className="skills-list">
-              <li>build out RESTful and GraphQL APIs</li>
-              <li>manage SQL (PostgreSQL) and NoSQL (MongoDB) databases</li>
-              <li>implement secure auth with JWT, OAuth, and session-based auth</li>
-              <li>use CDNs and database caching to improve performance</li>
-              <li>set up GitHub Actions</li>
-            </ul>
-
-            <p>
-              Currently, my main focus is building accessible, inclusive products and digital
-              experiences as a <a href="#jobs">consultant</a> for a variety of clients.
-            </p>
-
-            <p>
-              I actively contribute to <a href="https://www.hackforla.org">open source projects</a>{' '}
-              and volunteer at local businesses in my free time.
-            </p>
-
-            <p>Here are a few technologies I've been working with recently:</p>
           </div>
-
-          <ul className="skills-list">
-            {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
-          </ul>
         </StyledText>
 
         <StyledPic>
@@ -223,26 +194,64 @@ const About = () => {
       </div>
 
       <StyledText>
-        <details>
-          <summary>Click here to learn more about me.</summary>
-          <p>
-            I am a software engineer with a background in mechanical engineering, aviation
-            maintenance, and salmon conservation. Currently, I consult as a web developer,
-            contribute to multiple open-source/volunteer projects, and volunteer with my local
-            salmon conservation group. After high school, I went to college to study aerospace and
-            mechanical engineering. While in college, I joined the United States Marine Corps as a
-            helicopter mechanic and worked part-time as a mechanical engineer to pay my way through
-            school. I graduated from college with a bachelor of science in mechanical engineering,
-            minors in aerospace engineering and German, and Magna Cum Laude honors. While working as
-            a mechanical engineer, I found myself spending more time automating tasks to make my job
-            more efficient (both for myself and my coworkers); I also found that I enjoyed that part
-            of the job more than the engineering itself. Then COVID hit, and I lost my job.
-            Motivated by my passion of automating tasks, I turned to software engineering. Since
-            then, I started consulting web development work. As a consulting software engineer, I
-            have completed projects for several clients, ranging from local government to Edtech
-            startups. I continually upskill my technical and soft skills through the 100devs agency.
-          </p>
-        </details>
+        <blockquote>
+          <h3>
+            I thrive in mission-driven environments where accessibility, collaboration, and
+            performance intersect — and I'm passionate about creating inclusive, user-centered
+            experiences.
+          </h3>
+        </blockquote>
+
+        <h3>On the frontend, I can:</h3>
+        <ul className="list">
+          <li>Manage state with React Context</li>
+          <li>Build reusable UI components with React and semantic HTML</li>
+          <li>Create responsive layouts that work across different screen sizes</li>
+          <li>Optimize rendering with memoization</li>
+          <li>Implement WCAG-compliant accessibility (screen readers, keyboard navigation)</li>
+          <li>Style applications using CSS, Tailwind, Material UI, or Bootstrap</li>
+        </ul>
+
+        <h3>On the backend, I can:</h3>
+        <ul className="list">
+          <li>Build RESTful and GraphQL APIs</li>
+          <li>Manage SQL (PostgreSQL) and NoSQL (MongoDB) databases</li>
+          <li>Implement secure auth with JWT, OAuth, and session-based strategies</li>
+          <li>Use CDNs and database caching to improve app performance</li>
+          <li>Set up GitHub Actions</li>
+          <li>Deploy on AWS cloud platforms</li>
+        </ul>
+
+        <h3>Technologies I've been working with lately:</h3>
+        <ul className="skills-list">
+          {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
+        </ul>
+
+        <h3>What I'm up to now:</h3>
+        <ul className="list">
+          <li>
+            Building an environmental impact calculator for NOAA Fisheries using R and Shiny to
+            analyze GIS data
+          </li>
+          <li>
+            Developing AWS-integrated workflows at TeamForward Networking to automate post-event
+            processes
+          </li>
+          <li>
+            Consulting with local government and civic groups to create accessible digital
+            experiences
+          </li>
+          <li>Volunteering with my local salmon conservation group (HCSEG)</li>
+        </ul>
+
+        <p className="connect">
+          If you're working on something mission-driven, or just want to talk tech, open-source, or
+          salmon, let's{' '}
+          <a className="email-link" href="mailto:danielle.andrews.dev@icloud.com">
+            connect
+          </a>
+          !
+        </p>
       </StyledText>
     </StyledAboutSection>
   );
