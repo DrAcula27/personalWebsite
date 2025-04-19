@@ -351,7 +351,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   blockquote {
-    border-left-color: var(--blue);
+    border-left-color: var(--pink);
     border-left-style: solid;
     border-left-width: 1px;
     margin-left: 0px;
