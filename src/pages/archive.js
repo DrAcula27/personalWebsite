@@ -1,7 +1,8 @@
 import React, { useRef, useEffect } from 'react';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
-import { Helmet } from 'react-helmet';
+// import { Helmet } from 'react-helmet';
+import Head from '../components/head';
 import styled from 'styled-components';
 import { srConfig } from '@config';
 import sr from '@utils/sr';
@@ -148,7 +149,7 @@ const ArchivePage = ({ location, data }) => {
 
   return (
     <Layout location={location}>
-      <Helmet title="Archive" />
+      <Head title="Archive" />
 
       <main>
         <header ref={revealTitle}>

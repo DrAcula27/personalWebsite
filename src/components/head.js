@@ -1,29 +1,24 @@
-import React from 'react';
+import * as React from 'react';
 import PropTypes from 'prop-types';
-import { Helmet } from 'react-helmet';
+import { graphql, useStaticQuery } from 'gatsby';
 import { useLocation } from '@reach/router';
-import { useStaticQuery, graphql } from 'gatsby';
 
-// https://www.gatsbyjs.com/docs/add-seo-component/
-
-const Head = ({ title, description, image }) => {
+export const Head = ({ title, description, image }) => {
   const { pathname } = useLocation();
 
-  const { site } = useStaticQuery(
-    graphql`
-      query {
-        site {
-          siteMetadata {
-            defaultTitle: title
-            defaultDescription: description
-            siteUrl
-            defaultImage: image
-            twitterUsername
-          }
+  const { site } = useStaticQuery(graphql`
+    query {
+      site {
+        siteMetadata {
+          defaultTitle: title
+          defaultDescription: description
+          siteUrl
+          defaultImage: image
+          twitterUsername
         }
       }
-    `,
-  );
+    }
+  `);
 
   const { defaultTitle, defaultDescription, siteUrl, defaultImage, twitterUsername } =
     site.siteMetadata;
@@ -36,9 +31,8 @@ const Head = ({ title, description, image }) => {
   };
 
   return (
-    <Helmet title={title} defaultTitle={seo.title} titleTemplate={`%s | ${defaultTitle}`}>
-      <html lang="en" />
-
+    <>
+      <title>{seo.title}</title>
       <meta name="description" content={seo.description} />
       <meta name="image" content={seo.image} />
 
@@ -55,7 +49,8 @@ const Head = ({ title, description, image }) => {
       <meta name="twitter:image" content={seo.image} />
 
       <meta name="google-site-verification" content="DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk" />
-    </Helmet>
+      <html lang="en" />
+    </>
   );
 };
 

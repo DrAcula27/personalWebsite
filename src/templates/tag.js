@@ -2,7 +2,8 @@ import React from 'react';
 import { Link, graphql } from 'gatsby';
 import kebabCase from 'lodash/kebabCase';
 import PropTypes from 'prop-types';
-import { Helmet } from 'react-helmet';
+// import { Helmet } from 'react-helmet';
+import Head from '../components/head';
 import styled from 'styled-components';
 import { Layout } from '@components';
 
@@ -51,7 +52,7 @@ const TagTemplate = ({ pageContext, data, location }) => {
 
   return (
     <Layout location={location}>
-      <Helmet title={`Tagged: #${tag}`} />
+      <Head title={`Tagged: #${tag}`} />
 
       <StyledTagsContainer>
         <span className="breadcrumb">
