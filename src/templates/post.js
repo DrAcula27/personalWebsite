@@ -2,8 +2,7 @@ import React from 'react';
 import { graphql, Link } from 'gatsby';
 import kebabCase from 'lodash/kebabCase';
 import PropTypes from 'prop-types';
-// import { Helmet } from 'react-helmet';
-import Head from '../components/head';
+import SEO from '../components/seo';
 import styled from 'styled-components';
 import { Layout } from '@components';
 
@@ -57,7 +56,7 @@ const PostTemplate = ({ data, location }) => {
 
   return (
     <Layout location={location}>
-      <Head title={title} />
+      <SEO title={title} />
 
       <StyledPostContainer>
         <span className="breadcrumb">

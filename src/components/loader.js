@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Head from './head';
+import SEO from './seo';
 import PropTypes from 'prop-types';
 import anime from 'animejs';
 import styled from 'styled-components';
@@ -83,7 +83,7 @@ const Loader = ({ finishLoading }) => {
 
   return (
     <StyledLoader className="loader" isMounted={isMounted}>
-      <Head bodyAttributes={{ class: `hidden` }} />
+      <SEO bodyAttributes={{ class: `hidden` }} />
 
       <div className="logo-wrapper">
         <IconLoader />

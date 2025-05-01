@@ -2,8 +2,7 @@ import React from 'react';
 import { Link, graphql } from 'gatsby';
 import kebabCase from 'lodash/kebabCase';
 import PropTypes from 'prop-types';
-// import { Helmet } from 'react-helmet';
-import Head from '../../components/head';
+import SEO from '../../components/seo';
 import styled from 'styled-components';
 import { Layout } from '@components';
 
@@ -39,7 +38,7 @@ const TagsPage = ({
   location,
 }) => (
   <Layout location={location}>
-    <Head title="Tags" />
+    <SEO title="Tags" />
 
     <StyledTagsContainer>
       <span className="breadcrumb">

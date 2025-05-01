@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'gatsby';
-// import { Helmet } from 'react-helmet';
-import Head from '../components/head';
+import SEO from '../components/seo';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
@@ -51,7 +50,7 @@ const NotFoundPage = ({ location }) => {
 
   return (
     <Layout location={location}>
-      <Head title="Page Not Found" />
+      <SEO title="Page Not Found" />
 
       {prefersReducedMotion ? (
         <>{content}</>

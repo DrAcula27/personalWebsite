@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { graphql, useStaticQuery } from 'gatsby';
 import { useLocation } from '@reach/router';
 
-export const Head = ({ title, description, image }) => {
+const SEO = ({ title, description, image }) => {
   const { pathname } = useLocation();
 
   const { site } = useStaticQuery(graphql`
@@ -54,16 +54,16 @@ export const Head = ({ title, description, image }) => {
   );
 };
 
-export default Head;
-
-Head.propTypes = {
+SEO.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
   image: PropTypes.string,
 };
 
-Head.defaultProps = {
+SEO.defaultProps = {
   title: null,
   description: null,
   image: null,
 };
+
+export default SEO;
