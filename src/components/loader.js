@@ -7,6 +7,7 @@ import { IconLoader } from '@components/icons';
 
 const StyledLoader = styled.div`
   ${({ theme }) => theme.mixins.flexCenter};
+  flex-direction: column;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -22,13 +23,14 @@ const StyledLoader = styled.div`
     max-width: 100px;
     transition: var(--transition);
     opacity: ${props => (props.isMounted ? 1 : 0)};
+
     svg {
       display: block;
       width: 100%;
       height: 100%;
-      margin: 0 auto;
       fill: none;
       user-select: none;
+
       #D {
         opacity: 0;
       }
