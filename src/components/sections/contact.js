@@ -65,6 +65,10 @@ const Contact = () => {
       <a className="email-link" href={`mailto:${email}`}>
         Send An Email
       </a>
+
+      <a className="email-link" href={`https://dot.cards/danielle_andrews`}>
+        View Contact Info
+      </a>
     </StyledContactSection>
   );
 };
